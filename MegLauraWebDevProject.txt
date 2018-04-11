@@ -3,25 +3,32 @@ h1{
     text-align:center;
     font-size:50px;
     font-family:Lobster;
+    font-type: bold;
 }
 h2{
     text-align:center;
     font-size:30px;
     font-family:Monospace;
 }
-.thick-black-border{
+.thick-white-border{
     border-color:black;
     border-width:20px;
     border-style:solid;
 }
 body{
-    background-color:white;
+    background-color:red;
+}
+black-text{
+color: black;
+text-type: bold;
 }
 </style>
 
 
 <body>
-<h1>Megan's Piano Studio</h1>
+
+<h1 class= "black-text">Megan's Piano Studio</h1>
 <img class="thick-black-border"src=C:\Users\Laura\Desktop\MegPianoStudioPic(s)MegPianoStudioPic>
 
-<h2>Welcome!</h2>
+<h2 class= "black-text">Welcome!</h2>
+</body>
